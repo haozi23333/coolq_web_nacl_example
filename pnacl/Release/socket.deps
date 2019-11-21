@@ -1,0 +1,89 @@
+# Updated by fix_deps.py
+pnacl/Release/socket.o: socket.cc \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/host_resolver.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_stdint.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_macros.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/ppb_host_resolver.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_bool.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_completion_callback.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_instance.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_resource.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_var.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/ppb_net_address.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/net_address.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/pass_ref.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/resource.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/instance_handle.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/var.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/instance.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/ppb_console.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/view.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/rect.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_rect.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_point.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_size.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/point.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/size.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/logging.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/module.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_module.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/ppb.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/ppb_core.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_time.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/core.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/tcp_socket.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/ppb_tcp_socket.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/udp_socket.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/ppb_udp_socket.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/utility/completion_callback_factory.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/completion_callback.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_errors.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/output_traits.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/array_output.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_array_output.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/utility/completion_callback_factory_thread_traits.h \
+  /Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/utility/threading/lock.h
+socket.cc:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/host_resolver.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_stdint.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_macros.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/ppb_host_resolver.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_bool.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_completion_callback.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_instance.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_resource.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_var.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/ppb_net_address.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/net_address.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/pass_ref.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/resource.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/instance_handle.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/var.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/instance.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/ppb_console.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/view.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/rect.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_rect.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_point.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_size.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/point.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/size.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/logging.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/module.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_module.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/ppb.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/ppb_core.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_time.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/core.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/tcp_socket.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/ppb_tcp_socket.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/udp_socket.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/ppb_udp_socket.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/utility/completion_callback_factory.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/completion_callback.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_errors.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/output_traits.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/cpp/array_output.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/c/pp_array_output.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/utility/completion_callback_factory_thread_traits.h:
+/Users/haozi/Downloads/nacl_sdk/pepper_55/include/ppapi/utility/threading/lock.h:

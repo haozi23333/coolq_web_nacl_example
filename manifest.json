@@ -1,0 +1,34 @@
+{
+  "name": "socket",
+  "version": "55.0.2883.59",
+  "manifest_version": 2,
+  "description": "web_qq",
+  "offline_enabled": true,
+  "icons": {
+    "128": "icon128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+    {
+      "socket": [
+        "tcp-listen:*:*",
+        "tcp-connect",
+        "resolve-host",
+        "udp-bind:*:*",
+        "udp-send-to:*:*"
+      ]
+    }
+  ],
+  "socket": {
+    "udp": {
+      "send": "*"
+    },
+    "udpServer": {
+      "listen": "*"
+    }
+  }
+}
